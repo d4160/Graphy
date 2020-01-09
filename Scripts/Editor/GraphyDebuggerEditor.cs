@@ -507,16 +507,9 @@ namespace Tayx.Graphy
 
         private void LoadGuiStyles()
         {
-            m_logoTexture = AssetDatabase.LoadAssetAtPath<Texture2D>
-            (
-                "Packages/Graphy - Ultimate Stats Monitor/Textures/Debugger_Logo_" +
-                (EditorGUIUtility.isProSkin ? "White.png" : "Dark.png")
-            );
+            m_logoTexture = Resources.Load<Texture2D>($"Textures/Debugger_Logo_{(EditorGUIUtility.isProSkin ? "White.png" : "Dark.png")}");
 
-            m_skin = AssetDatabase.LoadAssetAtPath<GUISkin>
-            (
-                "Packages/Graphy - Ultimate Stats Monitor/GUI/Graphy.guiskin"
-            );
+            m_skin = Resources.Load<GUISkin>("Graphy");
 
             if (m_skin != null)
             {
