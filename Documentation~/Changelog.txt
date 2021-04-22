@@ -1,4 +1,49 @@
 -----------------------------
+v2.1.3
+
+- Added null check for Keyboard.current.
+
+-----------------------------
+v2.1.2
+
+- Fixed NullRef in AudioMonitor if no main camera is in the scene.
+
+-----------------------------
+v2.1.1
+
+- Small hotfix for a index of out bounds error.
+- Simplified Singleton class to allow Graphy to be Destroyed.
+- Deallocating cached strings on Destroy to free up memory.
+
+-----------------------------
+v2.1.0
+
+- Pretty big refactor.
+- Lots of optimization.
+- Removed min/max fps for 1% and 0.1% lows, which is the industry standard now.
+- Improved UI. Added rounded corners and a better default color palette.
+
+-----------------------------
+v2.0.1
+
+- Updated package.json to 2.0.1.
+
+-----------------------------
+v2.0.0
+
+- Now supports UPM (Unity Package Manager).
+- Minimum official supported version is now Unity 2019.3.0. If you want a version that supports 5.4+, go to Github to download it.
+- Lots of minor tweaks, optimizations and bugfixes.
+
+-----------------------------
+v1.6.0
+
+This is the last release that will officially support Unity 5.4+. Next releases will be targeted towards 2019.3+.
+
+- Minor tweaks, optimizations and bugfixes.
+- Added support for VR single pass instanced rendering.
+
+-----------------------------
 v1.5.2
 
 - Removed asmdefs to avoid missing reference issues in new Unity alpha versions.

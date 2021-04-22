@@ -1,9 +1,27 @@
 {
     "name": "com.tayx.graphy",
-    "displayName": "Graphy - Ultimate Stats Monitor",
+    "version": "2.1.3",
+    "displayName": "Graphy - Ultimate FPS Counter",
     "description": "Graphy is the ultimate, easy to use, feature packed FPS Counter, stats monitor and debugger for your Unity project.",
-    "version": "1.5.3",
-    "unity": "2018.1",
+    "unity": "2019.3",
     "license": "MIT",
-    "author": "Martín Pane <@martinTayx>"
+    "keywords": [
+        "fps",
+        "counter",
+        "performance",
+        "debugger",
+        "graphy"
+    ],
+    "author": {
+	    "name": "Martin Pane",
+	    "email": "martintayx@gmail.com",
+	    "url": "https://twitter.com/martinTayx"
+  	},
+	"samples": [
+		{
+		  "displayName": "Customization Scene",
+		  "description": "Customization Scene",
+		  "path": "Samples~"
+		}
+	]
 }
